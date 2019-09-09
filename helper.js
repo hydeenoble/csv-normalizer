@@ -3,10 +3,11 @@ class Helper {
     zipCodeFormatter(zipCode) {
         let zipCodeString = zipCode.toString();
         if (zipCodeString.length < 5) {
-            return parseInt(zipCodeString.padStart(5, "0"));
-        } else {
-            return zipCode;
-        }
+            return zipCodeString.padStart(5, "0");
+        } 
+        
+        return zipCode;
+        
     }
 
     fullNameFormatter(fullName) {
