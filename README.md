@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/hydeenoble/csv-normalizer.git
 ```
-* Install Dependecies
+* Install dependencies
 ```
 npm install
 ```
