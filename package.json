@@ -1,0 +1,26 @@
+{
+  "name": "csv-normalizer",
+  "version": "1.0.0",
+  "description": "Sample CSV Normalizer",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydeenoble/csv-normalizer.git"
+  },
+  "keywords": [
+    "CSV",
+    "Normalizer"
+  ],
+  "author": "Emehinola Idowu <emehinolaidowu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hydeenoble/csv-normalizer/issues"
+  },
+  "homepage": "https://github.com/hydeenoble/csv-normalizer#readme",
+  "dependencies": {
+    "moment-timezone": "0.5.26"
+  }
+}
