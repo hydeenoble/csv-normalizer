@@ -11,7 +11,7 @@ npm install
 ```
 * Run application
 ```
-node app.js /path/to/csv/file
+node app.js < /path/to/csv/file.csv
 ```
 
 ## Assumptions on the Input file
