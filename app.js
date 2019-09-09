@@ -14,8 +14,8 @@ let rl = readline.createInterface({
 rl.on("line", line => {
     stdinData += line + "\n";
 }).on("close", () => {
-    let converterStdinData = converter.csv2jsonAsync(helper.normalizeUTF8(stdinData));
-    converterStdinData
+    let convertedStdinData = converter.csv2jsonAsync(helper.normalizeUTF8(stdinData));
+    convertedStdinData
         .then(rows => {
             rows.forEach((row, index) => {
                 try {
