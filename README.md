@@ -17,7 +17,7 @@ node app.js < /path/to/csv/file.csv
 ## Assumptions on the Input file
 * Input CSV is UTF-8
 * First row contains column headers
-* Columns are always in same order as follows: Timestamp, Address, ZIP, FullName, FooDuration, BarDuration, TotalDuration, Notes
+* Column names are: Timestamp, Address, ZIP, FullName, FooDuration, BarDuration, TotalDuration, Notes
 
 ## Problem Statement
 Please write a tool that reads a CSV formatted file on `stdin` and
